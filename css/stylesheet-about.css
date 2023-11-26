@@ -256,7 +256,19 @@ footer a {
 }
 
 /* end: footer */
+#sign-up {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white; 
+    color: #9e90e3; 
+    text-decoration: none; 
+    border-radius: 5px; 
+  }
 
+#sign-up:hover {
+    background-color: #c9a0f5;
+    color:white;
+  }
 
 /* 9e90e3
 ae96ea
