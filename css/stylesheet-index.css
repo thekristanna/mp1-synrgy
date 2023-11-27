@@ -27,76 +27,104 @@ h1 {
 
 
 
-/* media queries */
+/* start:footer */
+footer {
+    color:white;
+    font-size: 65%;
+    padding-top: 15px;
+    position: relative;
+    height: 25vh;
+    display: block;
+}
+ 
+#footer-row {
+    background: linear-gradient(45deg, #7683d9, #d8a0fe);
+    position: absolute;
+    bottom: 0px;
+}
+
+footer p {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer a {
+    margin-left: 7px;
+}
+
+#copyright {
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    font-size: 70%;
+}
+
+#facebook, #instagram, #tiktok, #twitter {
+    width: 20px;
+    margin-right: 0px 15px;
+}
+
+#icon-apple {
+    width: 80px;
+    margin-top: 20px;
+}
+
+#icon-android {
+    width: 80px;
+    margin-top: 10px;
+}
+
 @media (max-width: 1180px) {
-    #icon-pin-1 {
-        margin-top: -30px;
+    .container {
+    transform: scale(0.85); 
     }
-    #icon-pin-2 {
-        margin-top: -110px;
-    }
-    #icon-pin-3 {
-        margin-top: -90px;
-    }
-    #icon-pin-4 {
-        margin-top: -150px;
-    }
-    .background-wrapper {
-        margin-bottom: 0px;
-    }
-    
 }
 
 
 @media (max-width: 375px) {
-    .background-wrapper{
-        display: none;
+    
+    .container {
+        transform: scale(0.85); 
+        padding: 0px;
+        margin: 5px auto; 
     }
-
-    #girl {
-        position: relative;
+    h1 {
+        text-align: center;
     }
-
     footer {
-        margin-top: 320px;
+        margin-top: 50px;
     }
-
     #footer-about {
         text-align: center;
         margin-top: 20px;
     }
-
     #footer-quicklinks-1, #footer-quicklinks-2 {
         text-align: center;
     }
-
     #footer-social {
         margin-top: 40px;
         text-align: center;
     }
-
     footer p {
         padding: 0px;
         margin: 10px;
     }
-
     #footer-quicklinks-2 {
         margin-top: -5px;
         margin-bottom: 20px;
     }
-
-    #icon-android, #icon-apple {
+    #icon-android, #icon-apple  {
         display: block;
         margin: -12px auto;
         padding: 0px;
     }
-
     #facebook, #instagram, #twitter, #tiktok {
-        text-align: center;
+        text-align: center; 
         margin-bottom: 20px;
     }
 }
 
+/* end: footer */
 
 
 /* background wrapper */
@@ -267,50 +295,3 @@ h1 {
     text-align: center;
 }
 
-/* footer */
-footer {
-    color: white;
-    font-size: 65%;
-    position: absolute;
-    padding-top: 0px;
-    bottom: 0;
-    width: 100%;
-    background: linear-gradient(45deg, #7683d9, #d8a0fe);
-}
-
-footer p {
-    margin-top: 20px;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-footer a {
-    margin-left: 7px;
-}
-
-#copyright {
-    text-align: center;
-    padding-top: 10px 0; /* Adjust padding as needed */
-    font-size: 70%;
-}
-
-#social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#facebook, #instagram, #tiktok, #twitter {
-    width: 20px;
-    margin-right: 0px 15px;
-}
-
-#icon-apple {
-    width: 80px;
-    margin-top: 20px;
-}
-
-#icon-android {
-    width: 80px;
-    margin-top: 10px;
-}
