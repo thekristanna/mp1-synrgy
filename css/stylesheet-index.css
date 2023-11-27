@@ -20,13 +20,6 @@ h1 {
     margin-top: 100px;
 }
 
-/* .container-fluid .text-center {
-    background-color: white;
-    margin-bottom: 0;
-} */
-
-
-
 /* start:footer */
 footer {
     color:white;
@@ -85,25 +78,32 @@ footer a {
 
 
 @media (max-width: 375px) {
-    
     .circle-container {
         display: none;
     }
     #icon-pin-1, #icon-pin-2, #icon-pin-3, #icon-pin-4, #icon-pin-5, #icon-pin-6 {
         display: none;
     }
-    #girl {
-      margin-bottom: 100px;
-    }
     .background-wrapper {
-        margin-bottom: 500px;
+        margin-bottom: 0px;
+    }
+    #icon-pin-main {
+        transform: translate(-50% -90%);
+    }
+    #girl {
+        margin-bottom: 45px;
+        padding: 0;
+        position: relative;
     }
     #synrgy {
-        display: none;
+        font-size: 85px;
+        position: relative;
+        margin-top: -100px;
     }
     footer {
-        margin-top: 50px;
-        z-index: -2;
+        margin-top: 780px;
+        position: relative;
+        margin-bottom: -700px;
     }
     #footer-about {
         text-align: center;
@@ -134,7 +134,6 @@ footer a {
         margin-bottom: 20px;
     }
 }
-
 /* end: footer */
 
 
