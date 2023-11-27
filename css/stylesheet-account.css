@@ -11,11 +11,12 @@ body {
     align-items: center;
     min-height: 100vh;
     background: linear-gradient(45deg, #7683d9, #ae96ea, #d8a0fe);
+    overflow-x: hidden;
 }
  
 .container {
-    margin-top: -100px;
-    margin-bottom: -110px;
+    margin-top: -30px;
+    margin-bottom: -40px;
 }
 .container .content {
     position: relative;
@@ -117,12 +118,12 @@ footer a {
 }
 
 @media (max-width: 1180px) {
-    form {
+   .content {
         padding: 0px;
-        margin: 10px auto;
+        margin-top: 0px auto;
     }
     footer {
-        margin-top: -200px;
+        margin-top: -100px;
     }
 }
 @media (max-width: 375px) {
@@ -132,7 +133,7 @@ footer a {
         margin: 10px auto;
     }
     footer {
-        margin-top: 200px;
+        margin-top: 420px;
     }
     #footer-about {
         text-align: center;
