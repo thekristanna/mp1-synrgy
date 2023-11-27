@@ -204,24 +204,27 @@ footer a {
 }
 
 @media (max-width: 1180px) {
-    .container {
-    transform: scale(0.85); 
+    body > .container {
+        transform: scale(0.85);
+        transform-origin: top;
+        padding: 0px;
+        margin: 10px auto;
+    }
+    footer {
+        margin-top: -320px;
     }
 }
 
-
 @media (max-width: 375px) {
     
-    .container {
-        transform: scale(0.85); 
+    body > .container {
+        transform: scale(0.85);
+        transform-origin: top;
         padding: 0px;
-        margin: 5px auto; 
-    }
-    h1 {
-        text-align: center;
+        margin: 10px auto;
     }
     footer {
-        margin-top: 50px;
+        margin-top: -200px;
     }
     #footer-about {
         text-align: center;

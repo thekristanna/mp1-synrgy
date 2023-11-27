@@ -32,7 +32,7 @@ footer {
     color:white;
     font-size: 65%;
     padding-top: 15px;
-    position: relative;
+    /* position: relative; */
     height: 25vh;
     display: block;
 }
@@ -83,13 +83,14 @@ footer a {
 
 @media (max-width: 375px) {
     
-    .container {
-        transform: scale(0.85); 
-        padding: 0px;
-        margin: 5px auto; 
+    .circle-container {
+        display: none;
     }
-    h1 {
-        text-align: center;
+    #icon-pin-1, #icon-pin-2, #icon-pin-3, #icon-pin-4, #icon-pin-5, #icon-pin-6 {
+        display: none;
+    }
+    .content {
+        transform: scale(0.55); 
     }
     footer {
         margin-top: 50px;
